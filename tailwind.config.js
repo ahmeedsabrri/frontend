@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        'Roboto' : ['Roboto', 'sans-serif']
+        'Roboto' : ['Roboto', 'sans-serif'],
+        'Outfit' : ['Outfit']
       },
       backgroundImage :{
         'tennis-bro' : "url('/src/assets/tennis-bro.svg')",

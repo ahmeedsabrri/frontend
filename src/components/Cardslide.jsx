@@ -41,8 +41,8 @@ function Cardslide() {
             initial={{  x: isOpen ? "585px" : "0"}} // Start from right if isOpen, otherwise from left
             animate={{  x: isOpen ? "585px" : "0" }} // Animate left or right based on isOpen
             transition={{
-                duration: 0.1,
-                type: "spring",
+                duration: 0.4,
+                type: "Tween",
                 stiffness: 100
             }}
         >
